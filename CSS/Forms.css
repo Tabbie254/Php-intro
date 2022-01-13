@@ -1,0 +1,19 @@
+form {
+    padding: 15px;
+    justify-content: space-between;
+    line-height: 20px;
+
+}
+
+.inputstyle{
+    width: 40%;
+    padding: 8px;
+    margin: 3px;
+    round-clip: 10px;
+}
+.divstyle{
+    padding: 8px;
+}
+.submit{
+    color: #074d38;
+}

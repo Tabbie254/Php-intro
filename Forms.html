@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="CSS/Forms.css">
+</head>
+<body>
+
+<style>
+
+    body {
+    background-image: url('/images/daily-nouri-E5Oo4nENq2M-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    }
+</style>
+
+<h3> Admission</h3>
+<form action="#">
+    <div class="divstyle">
+        <labels> First Name </labels>
+        <input class="inputstyle" type="text" name="FName" placeholder="Enter your First name"><br>
+    </div>
+
+        <div class="divstyle">
+        <labels> Second Name </labels>
+            <input class="inputstyle" type="text" name="SName" placeholder="Enter your Second name"><br>
+        </div>
+    <div class="divstyle">
+        <labels> other Name </labels>
+        <input class="inputstyle" type="text" name="OName" placeholder="Enter your Other name"><br>
+
+    </div>
+
+    <div class="divstyle">
+        <labels> Occupation </labels>
+        <input class="inputstyle" type="text" name="occupation" placeholder="Enter your Occupation"><br>
+        </div>
+    <div class="divstyle">
+        <label> Gender</label>
+        <select name="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select><br>
+    </div>
+    <div class="divstyle">
+        <label> Email Address </label>
+        <input class="inputstyle" type="email" name="emailaddress" placeholder="Enter your Email Address"><br>
+
+    </div>
+
+    <div class="divstyle">
+        <label> Phone Number</label>
+        <input class="inputstyle" type="tel" name="pnumber"> <br>
+    </div>
+
+    <div class="divstyle">
+        <label> Github Link </label>
+        <input class="inputstyle" type="url" name="githublink"><br>
+    </div>
+
+    <div class="divstyle">
+        <label> Date of Birth</label>
+        <input class="inputstyle" type="date" name="dob"><br>
+    </div>
+
+    </div>
+    <div class="divstyle">
+        <label> Programming Languages </label> <br>
+
+        <span>
+
+        <input  type="radio" name="program" value="html">
+             <label> HTML </label><br>
+
+        <input  type="radio" name="program" value="html">
+            <label> CSS </label><br>
+
+        <input  type="radio" name="program" value="html">
+            <label> PHP </label><br>
+        </span>
+
+        <label> Interests </label> <br>
+
+        <span>
+
+
+        <input  type="checkbox" name="fullstack" value="fullstack">
+            <label> Full Stack </label><br>
+
+
+        <input  type="checkbox" name="frontend" value="frontend">
+            <label> FrontEnd </label><br>
+
+
+        <input type="checkbox" name="backend" value="backend">
+            <label> BackEnd </label> <br>
+        </span>
+    </div>
+
+    <div class="divstyle">
+        <label> Upload your Cv </label>
+        <input class="inputstyle" type="file" name="doc"> <br>
+
+        <label> Image</label>
+        <input class="inputstyle" type="image" name="image"><br>
+
+    </div>
+    <div class="divstyle">
+        <label> Any other Information </label><br>
+        <textarea name="aoi" cols="30" rows="10"></textarea><br>
+
+    </div>
+    <div>
+        <input class="submit" type="submit">
+    </div>
+
+</form>
+
+</body>
+</html>
