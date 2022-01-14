@@ -1,0 +1,48 @@
+.styleul{
+    list-style-type: none;
+    background-color: teal;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+nav li{
+    float: left;
+}
+
+nav li a {
+    color: white;
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active){
+background-color: coral;
+
+}
+.wrimage{
+    background-image: url("../images/mrjn-photography-YpZ2cj4s0oo-unsplash.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.wetext{
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: white;
+
+}
+.wrbutton{
+    padding: 12px 12px;
+    width:30%;
+    background-color: teal;
+    border-radius: 20px;
+
+}
